@@ -1,0 +1,38 @@
+# ----------- CONFIGURABLE START -----------
+title:            "霸郎6+1霸郎要多少钱一盒-神农堂微信ya72995的博客"
+description:      "霸郎6+1霸郎要多少钱一盒-神农堂微信ya72995的博客"
+url:              https://ceoroot.github.io # 域名
+signoff:          "LiberXue" # Your name
+facebook_appid:   #liberxue
+google_analytics: UA-101222464-1
+share:            true 
+# 分页
+paginate: 15
+paginate_path: "liberxuepage:num"
+gems: [jekyll-paginate]
+links:
+  - name:         首页
+    url:          /
+    external:     false
+  - name:         霸郎6+1
+    url:          /book
+    external:     false
+  - name:         霸郎要多少钱一盒
+    url:          /road
+    external:     false
+ # - name:         归档
+  #  url:          /archives
+  #  external:     false
+ # - name:         标签
+  #  url:          /tags
+  #  external:     false
+ # - name:         关于
+ #   url:          /about
+ #   external:     false
+# ------------ CONFIGURABLE END ------------
+
+#permalink:        /:categories/:title.html
+permalink: /:year/:month/:day/:title.html
+defaults:
+  - values:
+      layout: "default"
